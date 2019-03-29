@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong/latlong.dart';
 import 'package:geolocator/geolocator.dart';
@@ -83,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               iconSize: 45.0,
                               onPressed: (){
                                 Scaffold.of(context).showSnackBar(SnackBar(content: Text("Aulario PUCP"),backgroundColor: Theme.of(context).primaryColor,));
-                                //print('Marker Tapped');
+                                //print('Marker Tappedd');
                               },
                             ),
                           );
